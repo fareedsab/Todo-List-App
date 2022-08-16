@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+
+            android:title="Home"
+            android:onClick="home"/>
+
+
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="History"
+            android:onClick="hello"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/add_task"
+            android:icon="@drawable/ic_baseline_post_add_24"
+            android:title="All Task"
+            android:onClick="Alltask"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/icons8logout36"
+            android:title="Logout"
+            android:onClick="logout"
+            tools:ignore="HardcodedText" />
+
+    </group>
+
+</menu>
